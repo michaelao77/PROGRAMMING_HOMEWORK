@@ -1,0 +1,131 @@
+/*STYLE FOR HOMEPAGE*/
+#homepage {
+	background-image: url(../graphics/pagesback.jpg);
+	font-family: 'Nova Flat', cursive;
+
+}
+
+
+#animation {
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+/*BUTTONS*/
+.buttons {
+	color: pink;
+	font-family: 'Fascinate Inline', cursive;
+	font-size: 45px;
+	line-height: 1.5;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+	/*CHANGE VISITED LINKS*/
+a:visited {
+	    color: #232526;
+	    text-decoration: none;
+}
+
+
+
+
+/*–––STYLE FOR PAGES–––*/
+
+/*GENERAL*/
+.pages {
+	background-color: #EF9E62;
+	background-image: url(../graphics/pagesback.jpg);
+	color: #232526;
+	font-family: 'Nova Flat', cursive;
+}
+
+/*HEADINGS*/
+.pages h1 {
+	color: #232526;
+	font-family: 'Fascinate Inline', cursive;
+	font-weight: bold;
+	font-size: 70px;
+	text-transform: capitalize;
+	background-color: #F58F17;
+	text-align: center;
+}
+
+.pages h2 {
+	color: #232526;
+	font-size: 40px;
+	font-family: 'Fascinate Inline', cursive;
+	background-color: #FFB555;
+	text-align: left;
+	width: 955px;
+}
+
+.pages p, .pages ul {
+	width: 750px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.pages p {
+	text-indent: 50px;
+	line-height: 1.5;
+
+}
+
+/*IMAGES*/
+
+.pages img {
+	position: sticky;
+	margin-left: 750px;
+	height: 400px;
+}	
+
+#icecream {
+	position: relative;
+	margin-top: -380px;
+	margin-left: 800px;
+	padding-left: 300px;
+}
+
+
+
+/*PRICING TABLE*/
+table.purchasetable {
+	background-color: #92d5cb;
+	text-align: left;
+	position: sticky;
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+
+table.purchasetable th {
+	background: #73AE9F;
+	font-size: 20px;
+	font-weight: bold;
+	color: #232526;
+	text-align: left;
+	padding-left: 5px;
+}
+
+table.purchasetable td {
+	font-size: 15px;
+	color: #3D3A37;
+	text-align: center;
+}
+
+
+
+/*NAVIGATION*/
+.nav {
+	color: #FEEF92;
+	font-family: 'Fascinate Inline', cursive;
+	font-size: 35px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+
+
