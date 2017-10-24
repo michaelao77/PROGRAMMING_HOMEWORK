@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>CSS TRICKS</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<!-- MAKING TEXT SIDEWAYS - TRICK #1 -->
+		<div class="para">
+  			<h2>SIDEWAYS TEXT</h2>
+				<p>Sideways text is done using the "writing-mode" property. It is primarily used for writing in other languages such as Chinese, Japenese, or Korean where text is often set vertically. It can also be used stylistically (as it is done here). The code for vertical looks like this: "writing-mode: vertical-rl;" ("rl" meaning right to left) <br>
+				<a href="https://css-tricks.com/almanac/properties/w/writing-mode/">https://css-tricks.com/almanac/properties/w/writing-mode/</a>
+				</p>
+		</div>
+		<hr>
+		<div class="para2">
+			<h1>SCROLLBAR☝︎</h1>
+			<p>The next CSS trick is the "scrollbar" property. As you can see to the left, this allows developers to customize their own scrollbar for their websites. It's done here using the "-webkit" prefix to work for browsers like Safari and  Chrome. The -webkit-scrollbar family of properties consists of seven different pseudo-elements that, together, comprise a full scrollbar UI element:
+				<ol>
+					<li>"::-webkit-scrollbar" addresses the background of the bar itself. It is usually covered by the other elements</li>
+					<li>"::-webkit-scrollbar-button" addresses the directional buttons on the scrollbar</li>
+					<li>"::-webkit-scrollbar-track" addresses the empty space “below” the progress bar</li>				
+					<li>"::-webkit-scrollbar-track-piece" is the top-most layer of the the progress bar not covered by the draggable scrolling element (thumb)</li>
+					<li>"::-webkit-scrollbar-thumb" addresses the draggable scrolling element that resizes depending on the size of the scrollable element</li>
+					<li>"::-webkit-scrollbar-corner" addresses the (usually) bottom corner of the scrollable element, where two scrollbars might meet</li>
+					<li>"::-webkit-resizer" addresses the draggable resizing handle that appears above the scrollbar-corner at the bottom corner of some elements</li>
+				</ol>
+			<a href="https://css-tricks.com/almanac/properties/s/scrollbar/">https://css-tricks.com/almanac/properties/s/scrollbar/</a>
+			</p>
+		</div>
+	</body>
+
+
+</html>
