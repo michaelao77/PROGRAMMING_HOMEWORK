@@ -34,6 +34,7 @@ h4 {
 	background-color: black;
 	border-style: solid;
 	border-color: white;
+	letter-spacing: 1px;
 }
 
 p {
@@ -125,10 +126,34 @@ a {
   	border-width: 10px;
  }
 
+ .MIA3 {
+ 	position: relative;
+	top: -20px;
+  	left: 250px;
+  	background-color: white;
+  	width: 500px;
+  	padding: 20px;
+  	border-style: dashed;
+  	border-color: yellow;
+  	border-width: 10px;
+ }
+
+ #MIA4 {
+ 	position: relative;
+	top: -30px;
+  	left: 400px;
+  	background-color: white;
+  	width: 500px;
+  	padding: 20px;
+  	border-style: solid;
+  	border-color: yellow;
+  	border-width: 10px;
+ }
+
  .nav3 {
  	font-style: bold;
 	font-size: 40px;
-	padding-left: 400px;
+	padding-left: 1050px;
  }
 
 /*PAGE 4*/
