@@ -792,8 +792,8 @@
   animation-name: shake-rotate;
   animation-duration: 500ms;
   animation-timing-function: ease-in-out;
-  animation-iteration-count: 1; 
-  animation-delay: 2.2s;
+  animation-iteration-count: 2; 
+  animation-delay: 2.6s;
   }
 
 @keyframes shake-opacity {
