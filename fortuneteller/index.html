@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Fortune Teller</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+
+	<body>
+		<!-- Crystal Ball -->
+		<img id="ball" src="images/ball.png">
+		<!-- Text Box -->
+		<form>
+			<div>
+				<input class="question" type="text" name="Type your troubles" placeholder="Type your troubles" oncopy="copyText()">
+				<p id="reading" ></p>
+			</div>
+			<div>
+				<input class="answer" type="text" name="Type your question" placeholder="Paste for answers" onpaste="newFortune()">
+				<p id="fortuneDisplay" ></p>
+			</div>
+		</form>
+	</body>
+
+</html>
