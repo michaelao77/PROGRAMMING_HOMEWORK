@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title> 17 </title>
+		<!-- LINK TO STYLE SHEETS -->
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<!-- LINK TO FONT -->
+		<link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet">
+		<!-- LINK TO BOOTSTRAP -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<!-- LINK TO JAVA -->
+		<script src="scripts/script.js" type="text/javascript"></script>
+		<!-- META TAGS -->
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	</head>
+
+	<body>
+		<!-- HEADER -->
+		<div id="header" class="container">
+			<!-- divs to center using Bootstrap -->
+			<div class="row justify-content-md-center">
+				<div class="col-sm"></div>	
+				<div class="col">
+					<img id="gif" src="media/17.gif">
+               <br>
+               <p id="subtitle">a graphic diary</p>
+				</div>
+				<div class="col-sm"></div>
+			</div>
+		 </div>
+
+		<!--GRID-->
+   		<div id="grid" class="container-fluid">
+
+   	    	<!-- ROW 1 -->
+   	    	<div class="row justify-content-md-center">
+
+   	    		<div class="container2" class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+                   <img class="photos" src="images/nikes.jpg" onclick="nikes()">
+                </div>
+   	    		
+   	    		 <div class="container2" class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   	    		    <img class="photos" src="images/avo.jpg" onclick="avocado()">
+   	    		 </div>
+
+   	    		 <div class="container2" class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+                   <img class="photos" src="images/yinyang.jpg" onclick="yinyang()">
+                </div>
+                             
+               <div class="container2" class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+                   <img class="photos" src="images/chicken.jpg" onclick="chicken()">
+               </div>
+  	    	
+            </div>
+   	    		
+
+               <!-- ROW 2 -->
+            <div class="row justify-content-md-center">
+
+               <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+                   <img class="photos" src="images/diamond.jpg" onclick="diamond()">
+               </div>
+   	    		
+   	    		 <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   	    		    <img class="photos" src="images/shark.jpg" onclick="shark()">
+   	    		 </div>
+
+                <div class="container2" class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1"> 
+                  <img class="photos" src="images/donut.jpg" onclick="donut()">
+                </div>
+
+   	    		 <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1"> 
+   	    	    	<img class="photos" src="images/skull.jpg" onclick="skull()">
+   	    		 </div>
+
+            </div>
+
+            <!-- ROW 3 -->
+            <div class="row justify-content-md-center">
+
+                <div class="container2" class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1"> 
+                  <img class="photos" src="images/beetle.jpg" onclick="beetle()">
+                </div>
+
+                <div class="container2" class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1"> 
+                  <img class="photos" src="images/aquafresh.jpg" onclick="aquafresh()">
+                </div>
+
+                <div class="container2" class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1"> 
+                  <img class="photos" src="images/sun.jpg" onclick="sun()">
+                </div>
+
+   	    		 <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1"> 
+   	    	    	<img class="photos" src="images/koi.jpg" onclick="koi()">
+   	    		 </div>
+
+   	    	 </div>
+
+   	    	 <!-- ROW 4 -->
+  	    	    <div class="row justify-content-md-center">
+
+   	    		<div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   	    		    <img class="photos" src="images/tongue.jpg" onclick="tongue()">
+   	    		</div>
+   	    		
+   	    		 <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   	    		    <img class="photos" src="images/sumo.jpg" onclick="sumo()">
+   	    		 </div>
+
+   	    		 <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1"> 
+   	    	    	<img class="photos" src="images/dove.jpg" onclick="dove()">
+   	    		 </div>
+
+                <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1"> 
+                  <img class="photos" src="images/dollarbill.png" onclick="dollar()">
+                </div>
+
+
+   	    	 </div>
+      </div>
+
+
+
+
+   	<!-- INDIVIDUAL OVERLAYS -->
+
+   		<!-- Chicken -->
+   	<div id="chicken" class="container-fluid">
+   		<div class="row justify-content-md-center">
+
+   			<div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   				<h1 class="number">6</h1>
+   			</div>
+
+   			<div class="grid_4" class="col-auto">
+   				<img class="bigpic" src="images/chicken.jpg">
+   				<p class="caption"> chicken & an egg</p>
+   			</div>
+   			<!-- X -->
+   			<div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   				<p id="x" onclick="noChicken()">X</p>
+   			</div>
+   		</div>
+   	</div>
+
+   		<!-- Avocado -->
+   	<div id="avocado" class="container-fluid">
+   		<div class="row justify-content-md-center">
+   			<div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   				<h1 class="number">2</h1>
+   			</div>
+   			<div class="grid_4" class="col-auto">
+   				<img class="bigpic" src="images/avo.jpg">
+   				<p class="caption">green egg/avocado</p>
+   			</div>
+   			<!-- X -->
+   			<div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   				<p id="x" onclick="noAvocado()">X</p>
+   			</div>
+   		</div>
+   	</div>
+
+   		<!-- Donut -->
+   	<div id="donut" class="container-fluid">
+   		<div class="row justify-content-md-center">
+   			<div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   				<h1 class="number">8</h1>
+   			</div>
+   			<div class="grid_4" class="col-auto">
+   				<img class="bigpic" src="images/donut.jpg">
+   				<p class="caption">a donut hole (literally)</p>
+   			</div>
+   			<!-- X -->
+   			<div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   				<p id="x" onclick="noDonut()">X</p>
+   			</div>
+   		</div>
+   	</div>
+
+		<!-- Sun -->
+   	<div id="sun" class="container-fluid">
+   		<div class="row justify-content-md-center">
+   			<div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   				<h1 class="number">12</h1>
+   			</div>
+   			<div class="grid_4" class="col-auto">
+   				<img class="bigpic" src="images/sun.jpg">
+   				<p class="caption">sunny disposition</p>
+   			</div>
+   			<!-- X -->
+   			<div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+   				<p id="x" onclick="noSun()">X</p>
+   			</div>
+   		</div>
+   	</div>
+
+      <!-- Diamond -->
+      <div id="diamond" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">5</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/diamond.jpg">
+               <p class="caption">all dat glitters</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noDiamond()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Shark -->
+      <div id="shark" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">7</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/shark.jpg">
+               <p class="caption">jaws (& teeth & gums) </p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noShark()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Skull -->
+      <div id="skull" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">9</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/skull.jpg">
+               <p class="caption">bored ass bones</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noSkull()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Koi -->
+      <div id="koi" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">13</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/koi.jpg">
+               <p class="caption">blowin o's</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noKoi()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Tongue -->
+      <div id="tongue" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">14</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/tongue.jpg">
+               <p class="caption">the rolling t-bones</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noTongue()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Sumo -->
+      <div id="sumo" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">15</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/sumo.jpg">
+               <p class="caption">cup o sumo</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noSumo()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Dove -->
+      <div id="dove" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">16</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/dove.jpg">
+               <p class="caption">pigeons ain't nothin but grey doves</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noDove()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Nikes -->
+      <div id="nikes" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">1</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/nikes.jpg">
+               <p class="caption">nike floaters ©</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noNikes()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- ipad -->
+      <div id="ipad" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">4</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/ipad.jpg">
+               <p class="caption">a balanced diet</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noIpad()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Yin Yang -->
+      <div id="yinyang" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">3</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/yinyang.jpg">
+               <p class="caption"> yin v. yang</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noYinyang()">X</p>
+            </div>
+         </div>
+      </div>
+
+       <!-- Aquafresh -->
+      <div id="aquafresh" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">11</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/aquafresh.jpg">
+               <p class="caption">spit surfin'</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noAquafresh()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Dollar -->
+      <div id="dollar" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">17</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/dollarbill.png">
+               <p class="caption">less hard cash</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noDollar()">X</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Beetle -->
+      <div id="beetle" class="container-fluid">
+         <div class="row justify-content-md-center">
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <h1 class="number">10</h1>
+            </div>
+            <div class="grid_4" class="col-auto">
+               <img class="bigpic" src="images/beetle.jpg">
+               <p class="caption">a bug</p>
+            </div>
+            <!-- X -->
+            <div class="grid_4" class="col-lg-1 col-md-1 col-sm-1 col-1">
+               <p id="x" onclick="noBeetle()">X</p>
+            </div>
+         </div>
+      </div>
+
+   
+
+
+
+
+
+
+<!-- -----end of individual overlays------- -->
+
+<footer>
+   <div id="togglebackground">
+      <button id="button1" type="button" class="btn btn-default" onclick="changeBackgroundBack()">☼</button>
+      <button id="button2" type="button" class="btn btn-default" onclick="changeBackground()">☾</button>
+   </div>
+   <div id="footer" >
+      <div>
+         <a href="about.html" id="about">about</a>
+      </div>
+   </div>
+
+</footer>
+
+
+	</body>
+
+	<!-- SCRIPTS
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="		sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</html>
